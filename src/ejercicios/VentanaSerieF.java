@@ -1,4 +1,4 @@
-package ejercicio;
+package ejercicios;
 
 import java.awt.BorderLayout;
 import java.awt.EventQueue;
@@ -125,5 +125,9 @@ public class VentanaSerieF extends JFrame {
 		txtar_Serie = new JTextArea();
 		txtar_Serie.setBounds(10, 104, 341, 54);
 		contentPane.add(txtar_Serie);
+		
+		JPanel panel = new JPanel();
+		panel.setBounds(0, 0, 10, 10);
+		contentPane.add(panel);
 	}
 }
